@@ -1,0 +1,40 @@
+
+{
+    "users": [
+        {
+            "name": "Wen-D",
+            "role": [
+                "Web Dev",
+                "UX Designer",
+                "Project Manager",
+                "Graphic Designer"            
+            ],
+            "birthday": "02/02/96",
+            "dependents": [
+                "Roxanne",
+                "Liz",
+                "Don"
+            ]
+        },
+        {
+            "name": Sarah,
+            "role": "Graphic Designer"
+            "birthday": "01/01/87",
+            "dependents": [
+                "Joe",
+                "John"
+            ]
+        },
+        {
+            "name": "Keith",
+            "role": [
+                "Marketing Manager",
+                "Content Generator"
+            ],
+            "birthday": "02/8/56",
+            "dependents": "Lil Kim"
+        }
+    ]
+}
+
+

@@ -1,0 +1,64 @@
+{
+    "user": 
+    [
+        {
+            "_id": 001,
+            "name": "Wen-D",
+            "last_name": "Lee",
+            "link_user_role": 
+            [
+                {
+                   "_id": "001-1",
+                   "role": 
+                   {
+                       "_id": "Sys-Admin",
+                       "link_role_permission": 
+                       {
+                           "_id": 01,
+                           "permission": 
+                           {
+                             "chmod": 777
+                           }
+                       }
+                   } 
+                },
+                {
+                    "_id": "001-2",
+                    "role": 
+                    {
+                        "_id": "Sys-User",
+                        "link_role_permission": 
+                        {
+                            "_id": 02,
+                            "permission": 
+                            {
+                              "chmod": 755
+                            }
+                        }
+                    } 
+                }
+            ]
+        },
+        {
+            "_id": 002,
+            "name": "Bob",
+            "last_name": "Lee",
+            "link_user_role": 
+            {
+               "_id": "002-2",
+               "role": 
+               {
+                   "_id": "Sys-Admin",
+                   "link_role_permission": 
+                   {
+                       "_id": 01,
+                       "permission": 
+                       {
+                        "chmod": 777
+                       }
+                   }
+               } 
+            }
+        }
+    ]
+}

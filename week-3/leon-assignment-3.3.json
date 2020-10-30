@@ -1,0 +1,43 @@
+{
+    "publisher":
+    {
+        "publisher_name": "Book House",
+        "publisher_code": "BH001",
+        "publisher_address": "123 Book club cir",
+        "book": 
+        [
+            {
+                "book_isbn": "isbn-001",
+                "book_name": "The girl that coded the hornets nest",
+                "book_price": "16.21",
+                "author": 
+                [
+                    {
+                        "author_first_name": "Stieg",
+                        "author_last_name": "Larsson",
+                        "author_phone": "213-234-1236",
+                        "author_email": "stieg@larson.com"
+                    },
+                    {
+                        "author_first_name": "Larson",
+                        "author_last_name": "Hornet",
+                        "author_phone": "234-235-7896",
+                        "author_email": "lisbeth@stieg.com"
+                    } 
+                ]                   
+            },
+            {
+                "book_isbn": "isbn-002",
+                "book_name": "The girl with the NoSQL tatoo",
+                "book_price": "52.0",
+                "author": 
+                {
+                    "author_first_name": "Liam",
+                    "author_last_name": "Neeson",
+                    "author_phone": "569-789-3564",
+                    "author_email": "liam@neeson.com"
+                }               
+            }            
+        ]
+    }
+}

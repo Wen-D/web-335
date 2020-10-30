@@ -1,0 +1,53 @@
+{
+    "Customer":
+    {
+        "_id": 1,
+        "first_name": "Andy",
+        "last_name": "Delaware",
+        "date_of_birth": "01-08-63",
+        "user_name": "user-x",
+        "invoice": 
+        [
+            {
+                "_id": 001,
+                "date_created": "10-10-10",
+                "date_shipped": "11-10-10",
+                "item": 
+                [
+                    {
+                        "_id": "capri-100",
+                        "name": "capri red",
+                        "price": 80,
+                        "quantity": 1
+                    },
+                    {
+                        "_id": "capri-200",
+                        "name": "capri blue",
+                        "price": 100,
+                        "quantity": 1
+                    }                    
+                ],
+                "subtotal": 18.00,
+                "tax": 2.22,
+                "total": 182.22
+            },
+            {
+                "_id": 002,
+                "date_created": "12-10-10",
+                "date_shipped": "13-10-10",
+                "item": 
+                [
+                    {
+                        "_id": "shirt-100",
+                        "name": "shirt red",
+                        "price": 20,
+                        "quantity": 1
+                    }                
+                ],
+                "subtotal": 20.00,
+                "tax": 2.22,
+                "total": 22.22
+            }            
+        ]
+    }
+}

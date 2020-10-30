@@ -1,0 +1,61 @@
+{
+    "Class": 
+    {
+        "_id": 1,
+        "name": "NoSQL",
+        "Enroll": 
+        [
+            {
+                "_id": 1,
+                "Student": 
+                {
+                    "_id": 1,
+                    "first_name": "Wen-D",
+                    "last_name": "Lee",
+                    "mi": "C"
+                },
+                "grade": 98
+            },
+            {
+                "_id": 2,
+                "Student": 
+                {
+                    "_id": 2,
+                    "first_name": "Ry",
+                    "last_name": "Koch",
+                    "mi": "J"
+                },
+                "grade": 98                
+            }
+        ]
+    }
+}
+{
+    "Student": 
+    {
+        "_id": 1,
+        "first_name": "Nick",
+        "last_name": "Lee",
+        "mi": "",
+        "Enroll": 
+        [
+            {
+                "_id": 1,
+                "Class": 
+                {
+                    "id_": 1,
+                    "name": "RESTFul APIs",                
+                },
+                "grade": 98
+            },
+            {
+                "_id": 2,
+                "Class": {
+                    "_id": 2,
+                    "name": "Moongose"
+                },
+                "grade": 98
+            }
+        ]
+    }
+}
