@@ -1,0 +1,166 @@
+{
+    "Movie": 
+    {
+        "_id": 1,
+        "movie_name": "The Girl that kicked the NoSQL nest",
+        "movie_description",
+        "movie_release_date",
+        "movie_ratings": 
+        [
+            {
+                "_id": 1,
+                "movie_ratings": 
+                {
+                    "_id": 1,
+                    "rating_name": "*****",
+                    "user_id": "1"
+                }
+            },
+            {
+                "_id": 2,
+                "movie_ratings": 
+                {
+                    "_id": 2,
+                    "rating_name": "****",
+                    "user_id": "2"
+                }            
+            }
+        ]
+    }
+}
+{
+    "User": 
+    {
+        "_id": 1,
+        "user_name": "KM",
+        "user_email": "email@domain.info",
+        "user_membership": 
+        [
+            {
+                "_id": 1,
+                "membership_name": "Premium",
+                "membership_level": "Level 1"
+
+            }
+        ],
+        "user_newsletter_subscription": 
+        [
+            {
+                "_id": 1,
+                "newsletter_type_name": "Thrillers"
+            },
+            {
+                "_id": 2,
+                "newsletter_type_name": "Comedy"
+            },
+            {
+                "_id": 3,
+                "newsletter_type_name": "Romance"
+            }
+        ],
+        "user_parental_controls": 
+        [
+            {
+                "_id": 1,
+                "parental_control_name": "General Audiences",
+                "parental_control_letter": "G"
+                
+            },
+            {
+                "_id": 2,
+                "parental_control_name": "Parental Guidance Suggested",
+                "parental_control_letter": "PG"
+            }
+        ]        
+    }
+}
+{
+    "Ratings": 
+    [
+        {
+            "_id": 1,
+            "rating_name": "*****"
+        },
+        {
+            "_id": 2,
+            "rating_name": "****"
+        },
+        {
+            "_id": 3,
+            "rating_name": "***"
+        },
+        {
+            "_id": 4,
+            "rating_name": "**"
+        },
+        {
+            "_id": 5,
+            "rating_name": "*"
+        }
+    ]
+}
+
+{
+    "Memberships": 
+    [
+        {
+            "_id": 1,
+            "membership_name": "Silver",
+            "membership_level": "1"
+        },
+        {
+            "_id": 2,
+            "membership_name": "Premium",
+            "membership_level": "2"
+        },    
+        {
+            "_id": 3,
+            "membership_name": "Bronze",
+            "membership_level": "3"
+        }
+    ]
+}
+{
+    "Newsletter_Type": 
+    [
+        {
+            "_id": 1,
+            "membership_name": "Thriller"
+        },
+        {
+            "_id": 2,
+            "membership_name": "Comedy"
+        },    
+        {
+            "_id": 3,
+            "membership_name": "Romance"
+        }
+    ]
+}
+{
+    "Parental_Control_Type": 
+    [
+        {
+            "_id": 1,
+            "parental_control_name": "General Audiences",
+            "parental_control_letter": "G"
+            
+        },
+        {
+            "_id": 2,
+            "parental_control_name": "Parental Guidance Suggested",
+            "parental_control_letter": "PG"
+        },    
+        {
+            "_id": 3,
+            "parental_control_name": "Restricted",
+            "parental_control_letter": "G"
+        },    
+        {
+            "_id": ,
+            "parental_control_name": "No one under",
+            "parental_control_letter": "G"
+
+        }
+    ]
+}
